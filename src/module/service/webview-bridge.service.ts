@@ -67,7 +67,7 @@ export class WebviewBridgeService {
    * @param name
    * @param callback
    *
-   * @usage 
+   * @usage
    *   service.registerHandler('JS Echo', (data, callback) => {
    *     console.log('JS Echo called from native with', data);
    *     callback(data);
@@ -110,6 +110,6 @@ export class WebviewBridgeService {
     WVJBIframe.style.display = 'none';
     WVJBIframe.src = 'https://__bridge_loaded__';
     document.documentElement.appendChild(WVJBIframe);
-    setTimeout(function() { document.documentElement.removeChild(WVJBIframe); }, 0);
+    setTimeout(() => { document.documentElement.removeChild(WVJBIframe); }, 0);
   }
 }
