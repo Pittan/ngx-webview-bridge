@@ -1,0 +1,27 @@
+{
+  "generator-ngx-library": {
+    "version": "4.3.0",
+    "authorName": "Amon Keishima",
+    "authorEmail": "amon.keishima@gmail.com",
+    "githubUsername": "Pittan",
+    "githubRepoName": "ngx-webview-bridge",
+    "projectName": "ngx-webview-bridge",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular-wrapped WebViewJavascriptBridge",
+    "projectKeywords": [
+      "ng",
+      "angular",
+      "library"
+    ],
+    "ngPrefix": "pttn",
+    "ngVersion": "4.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": []
+  }
+}
