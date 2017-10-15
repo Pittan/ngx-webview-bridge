@@ -2,22 +2,14 @@ import { TestBed, inject } from '@angular/core/testing';
 
 import { WebviewBridgeService } from './webview-bridge.service';
 
-describe('LibService', () => {
+describe('WebviewBridgeService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [WebviewBridgeService]
     });
   });
 
-  it('should create service', inject([LibService], (service: LibService) => {
+  it('should create service', inject([WebviewBridgeService], (service: WebviewBridgeService) => {
     expect(service).toBeTruthy();
-  }));
-
-  it('should say hello to stranger', inject([LibService], (service: LibService) => {
-    expect(service.sayHello()).toBe('Hello Stanger!');
-  }));
-
- it('should say hello to provided user', inject([LibService], (service: LibService) => {
-    expect(service.sayHello('ng-hacker')).toBe('Hello ng-hacker!');
   }));
 });
