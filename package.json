@@ -1,7 +1,7 @@
 {
   "name": "ngx-webview-bridge",
   "description": "Angular-wrapped WebViewJavascriptBridge",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "filename": "./src/ngx-webview-bridge.js",
   "homepage": "http://github.com/Pittan/ngx-webview-bridge",
   "author": {
